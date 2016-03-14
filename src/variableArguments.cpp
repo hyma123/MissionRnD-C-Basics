@@ -33,6 +33,6 @@ int variableArguments(int arg_count, ...)
 	}
 
 
-	return 0;
+	return count;
 
 }

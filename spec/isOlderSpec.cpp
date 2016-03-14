@@ -9,7 +9,6 @@ namespace spec
 	TEST_CLASS(isOlderSpec)
 	{
 	public:
-
 		TEST_METHOD(invalid)
 		{
 			Assert::AreEqual(-1, isOlder("1000", "15-07-2000"), L"isOlder: invalid input case failed", LINE_INFO());
